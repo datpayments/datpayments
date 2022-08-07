@@ -1,4 +1,4 @@
-import { Button, Container, Text, Tooltip } from "@chakra-ui/react";
+import { Button, Container, Tooltip, Box } from "@chakra-ui/react";
 
 import React from "react";
 import { Logo } from "../Logo/Logo";
@@ -13,7 +13,9 @@ export function Navigation() {
         >
             <Logo />
             <Tooltip label="Alpha testing">
-                <Button disabled>Log In</Button>
+                <Box>
+                    <Button disabled>Log In</Button>
+                </Box>
             </Tooltip>
         </Container>
     );
