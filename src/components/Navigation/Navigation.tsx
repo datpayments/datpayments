@@ -1,5 +1,5 @@
 import { Button, Container, Text, Tooltip } from "@chakra-ui/react";
-import { Link } from "gatsby";
+
 import React from "react";
 import { Logo } from "../Logo/Logo";
 
