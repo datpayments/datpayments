@@ -13,9 +13,7 @@ export function Navigation() {
         >
             <Logo />
             <Tooltip label="Alpha testing">
-                <Button as={Link} to="/auth" disabled>
-                    Log In
-                </Button>
+                <Button disabled>Log In</Button>
             </Tooltip>
         </Container>
     );
